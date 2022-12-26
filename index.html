@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>This is an online t-shirt fashions</title>
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<link rel="stylesheet" href="index.css">
+ <script
+         src="https://code.jquery.com/jquery-3.6.1.js"
+         integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+         crossorigin="anonymous"></script>
+<script src="index.js"></script>
+ <script src="jquery.js"></script>
+    <script src="script.js"></script>
+<link rel="shortcut icon" type="image/png" href="img/fav_mini.png"/>
+<script src="https://kit.fontawesome.com/fa65fc720d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+  <div class="main-header large-12 columns with no-padding">
+    <div class="global-page-container">
+      <div class="ghost-element">
+      </div>
+    </div>
+  </div>
+</header>
+<main>
+  <div class="global-page-container">
+    <div class="price-calculator small-11 large-10 columns small-centered">
+      <div class="options">
+        <a href="https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2380057.m570.l1313&_nkw=tshirts&_sacat=0"><button class="headerB">This is an ecommerce application</button></a>
+        <h1>Make an online quotation for this t-shirts buying in an online</h1>
+        <a href="https://www.amazon.in/s?k=t+shirt+for+men&crid=33FFBOGLROX37&sprefix=t%2Caps%2C214&ref=nb_sb_ss_ts-doa-p_1_1"><button class="headerB">This is the online t-shirts shopping center</button></a>
+      </div>
+      <div class="multiple options">
+        <div class="filters small-18 columns">
+          <div class="single-filter">
+            <div class="card">
+              <span class="filter-label">Quantity:</span>
+              <input type="number" id="quantity" value="20">
+            </div>
+          <div class="single-filter">
+          <div class="card"></div>
+          <span class="filter-label">Color:</span> <span class="filter-label">Quality of fabric:</span> <span class="filter-label">Style:</span><span class="filter-label">Thickness:</span><span class="filter-label">Design:</span>
+              <div class="card">
+          <div id="color" class="option-filter">
+              <div id="white" class="color-option option-button">white</div>
+            <div id="colored" class="color-option option-button selected">Colored</div>
+            <div id="pink" class="color-option option-button highlighted">Pink</div>
+              <div id="quality" class="option-filter">
+                  <div id="q150" class="quality-option option-button selected">Basic (150g / m2)</div>
+                  <div id="q190" class="quality-option option-button">High (190g / m2)</div>
+                  <div id="q198" class="quality-option option-button">Low (180g/m3)</div>
+                  <select id="style">
+                      <option value="printed">Printed</option>
+                      <option value="plain">Plain</option>
+                  </select>
+                  <select id="thickness">
+                      <option value="printed">10cm</option>
+                      <option value="plain">20cm</option>
+                      <option value="color">30cm</option>
+                      <option value="round neck">40cm</option>
+                  </select>
+                  <select id="design">
+                      <option value="printed">Printed</option>
+                      <option value="plain">Plain</option>
+                      <option value="colored">Colored</option>
+                      <option value="round neck">Round Neck</option>
+                  </select>
+          </div>
+          </div>
+</div>
+<div class="details-section">
+<div class="card picture">
+ </div>
+<div class="options2">
+ <div class="card">  
+  <div class="product-description small-12 medium-7 columns">
+<h2>Order details</h2>
+ <div class="opt1">
+<p>Product:<span id="result-product">Basic t-shirt</span> </p>
+<p>Style:<span id="result-style"></span> </p>
+<p>Quality:<span id="result-quality"></span> </p>
+<p>Color:<span id="result-color"></span> </p>
+<p>Quantity:<span id="result-quantity"></span> </p>
+<p>Thickness:<span id="result-thickness"></span></p>
+<p>Total</p>
+<div id="price">US<span id="total-price"></span></div>
+<div id="add-to-cart">
+  <div>Add To Cart<a href="https://www.amazon.in/s?k=t+shirt+for+men&crid=33FFBOGLROX37&sprefix=t%2Caps%2C214&ref=nb_sb_ss_ts-doa-p_1_1"><i class="fa-solid fa-cart-shopping"></i></a></div>
+  <div><button id="complete-order"><a href="https://www.amazon.in/amazonpay/home">Complete order</a></button></div>
+</div>
+</div>
+</div>
+</div>
+<div class="results small-12 columns">
+<div class="product-picture small-12 medium-5 columns">
+<div class="picture-area">
+<img id="photo-product" src="img/blank.png" alt="short">
+</div>
+</div>
+</div>
+ </div>
+ </div>
+</main>
+</body>
+</html>
